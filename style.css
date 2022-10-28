@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--color1);
+}
+:root{
+    --color1: #292826;
+    --color2: #fcdc5c;
+    --color3: #EE4E34;
+    --color4: #9cec08;
+}
+.container{
+    width: 60%;
+    margin: auto;
+    height: auto;
+    margin-top: 50px;
+}
+.container h1{
+    color: var(--color2);
+    font-size: 50px;
+    text-align: center;
+}
+form{
+    margin-top: 80px;
+}
+form label{
+    color: var(--color2);
+    font-size: 20px;
+    text-transform: capitalize;
+}
+form input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 7px;
+    margin-top: 10px;
+    caret-color: var(--color2);
+}
+form button{
+    width: 150px;
+    padding: 7px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+form #addBtn{
+    background-color: var(--color4);
+    color: snow;
+    text-transform: capitalize;
+}
+form #removeBtn{
+    background-color: var(--color3);
+    color: snow;
+    text-transform: capitalize;
+}
+#listContainer{
+    width: 100%;
+    margin-top: 50px;
+}
+#listContainer h2{
+    color: var(--color2);
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 400;
+}
+.todoContainer{
+    width: 100%;
+    background-color:var(--color2);
+    /* background-color: snow; */
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+.todoContainer p{
+    text-align:left;
+    color: snow;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 5px;
+    /* text-decoration: line-through; */
+}
+.btnContainer button{
+    padding: 5px;
+    width: 120px;
+    border: none;
+    outline: none;
+    color: snow;
+    margin-right: 5px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.complete{
+    background-color: var(--color4);
+}
+.delete{
+    background-color: var(--color3);
+}
+
+.todoContainer .pelem{
+    text-decoration: line-through;
+    color: var(--color4);
+}
